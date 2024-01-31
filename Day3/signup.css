@@ -1,0 +1,76 @@
+.aod {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    /* background-size: cover; */
+    background-image: url('https://img.freepik.com/free-vector/hospital-ward-with-patient-bed-doctor_107791-16654.jpg?w=1380&t=st=1706072423~exp=1706073023~hmac=3f276db5a16df45c9210137aceac6039c0b27333575290ba988d466a5022910e');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    /* position: fixed; */
+    width: 100%;
+    margin-top: -.10cm;
+    margin-left: -.3cm;
+    margin-right: -.2cm;
+}
+  
+  form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 400px;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  div {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  span {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+  }
+  
+  .but {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Optional: Add media queries for responsiveness */
+  /* @media screen and (max-width: 600px) {
+    form {
+      width: 100%;
+    }
+  }
+   */
